@@ -18,7 +18,7 @@ const Menu = () => {
         setLoading(true);
         setError(null);
         
-        const res = await fetch("https://spring-boot-backend-production-58ff.up.railway.app/api");
+        const res = await fetch("https://spring-boot-backend-production-58ff.up.railway.app/api/foods");
         
         if (!res.ok) {
           throw new Error(`HTTP ${res.status}: Failed to fetch foods`);
