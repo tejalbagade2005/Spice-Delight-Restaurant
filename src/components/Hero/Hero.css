@@ -1,0 +1,57 @@
+.hero{
+height:90vh;
+background:url("https://images.unsplash.com/photo-1504674900247-0877df9cc836");
+background-size:cover;
+background-position:center;
+
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+
+color:white;
+}
+
+.hero-content{
+background:rgba(0,0,0,0.5);
+padding:40px;
+border-radius:10px;
+
+animation:fadeIn 2s ease;
+}
+
+.hero h1{
+font-size:50px;
+margin-bottom:15px;
+}
+
+.hero p{
+font-size:22px;
+margin-bottom:20px;
+}
+
+.hero-btn{
+padding:12px 30px;
+font-size:18px;
+background:orange;
+border:none;
+cursor:pointer;
+border-radius:5px;
+}
+
+.hero-btn:hover{
+background:red;
+color:white;
+}
+
+@keyframes fadeIn{
+0%{
+opacity:0;
+transform:translateY(40px);
+}
+
+100%{
+opacity:1;
+transform:translateY(0);
+}
+}

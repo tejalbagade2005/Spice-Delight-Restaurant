@@ -1,0 +1,28 @@
+.reviews{
+padding:60px;
+background:#f4f4f4;
+text-align:center;
+}
+
+.reviews h2{
+font-size:35px;
+margin-bottom:40px;
+}
+
+.review-card{
+background:white;
+padding:30px;
+border-radius:10px;
+max-width:500px;
+margin:auto;
+box-shadow:0 5px 15px rgba(0,0,0,0.2);
+}
+
+.review-card p{
+font-size:18px;
+margin-bottom:15px;
+}
+
+.review-card h4{
+color:orange;
+}

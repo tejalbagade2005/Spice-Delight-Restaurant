@@ -1,0 +1,10 @@
+com\example\restaurantbackend\WebConfig.class
+com\example\restaurantbackend\repository\FoodRepository.class
+com\example\restaurantbackend\repository\OrderRepository.class
+com\example\restaurantbackend\model\Food.class
+com\example\restaurantbackend\model\Order.class
+com\example\restaurantbackend\WebConfig$1.class
+com\example\restaurantbackend\service\OrderService.class
+com\example\restaurantbackend\controller\OrderController.class
+com\example\restaurantbackend\RestaurantBackendApplication.class
+com\example\restaurantbackend\controller\FoodController.class
