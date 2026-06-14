@@ -3,14 +3,13 @@ import React, { createContext, useCallback, useEffect, useState } from "react";
 export const CartContext = createContext();
 
 export const CartProvider = ({ children }) => {
-
-  const [cart, setCart] = useState([]);
+   const [cart, setCart] = useState([]);
   const [orders, setOrders] = useState([]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
   const ORDERS_API = "https://spring-boot-backend-production-58ff.up.railway.app/api/orders";
   const ORDERS_COLLECTION_API = ORDERS_API;
-  const orderByIdUrl = (orderId) => '${ORDERS_API}/${orderId}';
+  const orderByIdUrl = (orderId) => `${ORDERS_API}/${orderId}`;
   const getResponseErrorMessage = useCallback(async (res) => {
     let text = "";
     try {
